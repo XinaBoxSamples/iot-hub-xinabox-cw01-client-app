@@ -27,8 +27,8 @@ Install the following libraries from `Sketch -> Include library -> Manage librar
 * `AzureIoTUtility`
 * `AzureIoTProtocol_MQTT`
 * `ArduinoJson`
-* `DHT sensor library`
-* `Adafruit Unified Sensor`
+* `SW01`
+* `xCore`
 
 ## Connect your sensor with your board
 ### Connect with a physical SW10(BME280)
@@ -36,8 +36,8 @@ You can follow the image to connect your SW01 with your XinaBox CW01.
 
 ![SW01](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-xinabox-cw01-wifi-xchip-arduino-get-started/cw01+sw01.png)
 
-### DON'T HAVE A PHYSICAL DHT22?
-You can use the application to simulate temperature&humidity data and send to your IoT hub.
+### DON'T HAVE A PHYSICAL SW01(BME280)?
+You can use the application to simulate data and send to your IoT hub.
 1. Open the `app/config.h` file.
 2. Change the `SIMULATED_DATA` value from `false` to `true`.
 
