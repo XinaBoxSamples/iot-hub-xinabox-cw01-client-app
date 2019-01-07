@@ -9,6 +9,7 @@ author: bb
 
 This repo contains an arduino application that runs on board the XinaBox CW01 with a xChip SW01(BME280) weather sensor, and then sends these data to your IoT hub. At the same time, this application receives Cloud-to-Device message from your IoT hub, and takes actions according to the C2D command. 
 
+
 ## Create your Azure IoT hub
 Follow [this page](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-xinabox-cw01-get-started) to prepare your Azure IoT hub and register your device.
 
