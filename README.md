@@ -5,11 +5,9 @@ author: bb
 ---
 
 # IoT Hub XinaBox CW01 Client application 
-[![Build Status](https://travis-ci.org/Azure-Samples/iot-hub-xinabox-cw01-client-app.svg?branch=master)](https://travis-ci.org/Azure-Samples/iot-hub-xinabox-cw01-client-app)
-
 > This repo contains the source code to help you get familiar with Azure IoT using the XK10 Iot starter kit. You will find the [CW01 Get Started](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-xinabox-cw01-get-started).
 
-This repo contains an arduino application that runs on board feather XinaBox CW01 with a xChip SW01(BME280) weather sensor sensor, and then sends these data to your IoT hub. At the same time, this application receives Cloud-to-Device message from your IoT hub, and takes actions according to the C2D command. 
+This repo contains an arduino application that runs on board the XinaBox CW01 with a xChip SW01(BME280) weather sensor, and then sends these data to your IoT hub. At the same time, this application receives Cloud-to-Device message from your IoT hub, and takes actions according to the C2D command. 
 
 ## Create your Azure IoT hub
 Follow [this page](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-xinabox-cw01-get-started) to prepare your Azure IoT hub and register your device.
@@ -31,7 +29,7 @@ Install the following libraries from `Sketch -> Include library -> Manage librar
 * `xCore`
 
 ## Connect your sensor with your board
-### Connect with a physical SW10(BME280)
+### Connect with a physical SW01(BME280)
 You can follow the image to connect your SW01 with your XinaBox CW01.
 
 ![SW01](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-xinabox-cw01-wifi-xchip-arduino-get-started/cw01+sw01.png)
